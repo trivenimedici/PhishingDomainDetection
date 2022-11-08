@@ -1,0 +1,12 @@
+2022-11-06_20:04:54		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-06_20:13:39		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-06_23:03:50		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-06_23:03:59		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-06_23:10:42		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-06_23:17:07		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-06_23:29:23		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-08_09:24:39		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-08_09:25:09		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-08_09:53:52		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-08_16:15:08		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv
+2022-11-08_18:23:19		Valid File name!! File moved to GoodRaw Folder :: dataset_full.csv

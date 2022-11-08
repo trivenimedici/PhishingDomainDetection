@@ -1,0 +1,491 @@
+2022-11-06_20:16:17		Start of Training
+2022-11-06_20:16:45		Entered the get_data method of the Data_Getter class
+2022-11-06_20:17:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-06_20:17:24		the data is loaded successfully
+2022-11-06_20:17:38		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-06_20:18:12		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-06_20:18:29		Entered the is_null_present method of the Preprocessor class
+2022-11-06_20:18:29		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-06_20:18:31		Entered the dropColumns_with_Constant method of the Preprocessor class
+2022-11-06_20:18:31		Finding constant values is a success.Data written to the constant values file. Exited the dropColumns_with_Constant method of the Preprocessor class
+2022-11-06_20:18:31		Entered the drop_Features_with_Coorelation method of the Preprocessor class
+2022-11-06_20:18:32		Entered the separate_label_feature method of the Preprocessor class
+2022-11-06_20:18:32		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-06_20:18:32		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-06_20:18:32		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-06_20:18:32		Entered the remove_columns method of the Preprocessor class
+2022-11-06_20:18:32		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-11-06_20:18:32		The column names folr training data are Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-06_20:18:32		Entered the elbow_plot method of the KMeansClustering class
+2022-11-06_20:18:45		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-11-06_20:18:45		Entered the create_clusters method of the KMeansClustering class
+2022-11-06_20:18:46		Entered the save_model method of the File_Operation class
+2022-11-06_20:18:46		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-11-06_20:18:46		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-11-06_20:18:55		Entered the get_best_model method of the Model_Finder class
+2022-11-06_20:18:56		AUC for Logistic:0.910091206339714
+2022-11-06_20:18:56		AUC for Descision Tree:0.9519006207256496
+2022-11-06_20:18:56		AUC for naive Bayes:0.8095290373730766
+2022-11-06_20:18:56		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_20:19:49		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_20:19:49		AUC for XGBoost:0.9742703662199745
+2022-11-06_20:20:34		Entered the save_model method of the File_Operation class
+2022-11-06_20:20:34		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-11-06_20:20:34		Entered the get_best_model method of the Model_Finder class
+2022-11-06_20:20:36		AUC for Logistic:0.9207279048920463
+2022-11-06_20:20:37		AUC for Descision Tree:0.9454023562686841
+2022-11-06_20:20:37		AUC for naive Bayes:0.7887366458001505
+2022-11-06_20:20:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_20:22:24		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_20:22:24		AUC for XGBoost:0.969159400684816
+2022-11-06_20:22:24		Entered the save_model method of the File_Operation class
+2022-11-06_20:22:24		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-11-06_20:22:24		Entered the get_best_model method of the Model_Finder class
+2022-11-06_20:22:24		AUC for Logistic:0.9353785006167482
+2022-11-06_20:22:24		AUC for Descision Tree:0.9367033669879847
+2022-11-06_20:22:24		AUC for naive Bayes:0.8458358079400612
+2022-11-06_20:22:24		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_20:22:31		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_20:22:31		AUC for XGBoost:0.9667412855772306
+2022-11-06_20:22:31		Entered the save_model method of the File_Operation class
+2022-11-06_20:22:31		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-11-06_20:22:31		Entered the get_best_model method of the Model_Finder class
+2022-11-06_20:22:31		AUC for Logistic:0.8947468414553055
+2022-11-06_20:22:31		AUC for Descision Tree:0.8837750546214497
+2022-11-06_20:22:31		AUC for naive Bayes:0.881970171938824
+2022-11-06_20:22:31		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_20:22:36		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_20:22:36		AUC for XGBoost:0.9448560843545168
+2022-11-06_20:22:36		Entered the save_model method of the File_Operation class
+2022-11-06_20:22:36		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-11-06_20:22:36		Successful End of Training
+2022-11-06_23:10:46		Start of Training
+2022-11-06_23:10:46		Entered the get_data method of the Data_Getter class
+2022-11-06_23:10:46		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-06_23:10:46		the data is loaded successfully
+2022-11-06_23:10:46		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-06_23:10:46		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-06_23:10:46		Entered the is_null_present method of the Preprocessor class
+2022-11-06_23:10:46		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-06_23:10:46		Entered the drop_Features_with_Coorelation method of the Preprocessor class
+2022-11-06_23:10:48		Entered the separate_label_feature method of the Preprocessor class
+2022-11-06_23:10:48		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-06_23:10:48		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-06_23:10:49		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-06_23:10:49		Entered the remove_columns method of the Preprocessor class
+2022-11-06_23:10:49		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-11-06_23:10:49		The column names folr training data are Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-06_23:10:49		Entered the elbow_plot method of the KMeansClustering class
+2022-11-06_23:11:06		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-11-06_23:11:06		Entered the create_clusters method of the KMeansClustering class
+2022-11-06_23:11:07		Entered the save_model method of the File_Operation class
+2022-11-06_23:11:07		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-11-06_23:11:07		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-11-06_23:11:07		Entered the get_best_model method of the Model_Finder class
+2022-11-06_23:11:07		AUC for Logistic:0.910091206339714
+2022-11-06_23:11:08		AUC for Descision Tree:0.9524087036042775
+2022-11-06_23:11:08		AUC for naive Bayes:0.8095290373730766
+2022-11-06_23:11:08		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_23:12:03		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_23:12:03		AUC for XGBoost:0.9742703662199745
+2022-11-06_23:12:03		Entered the save_model method of the File_Operation class
+2022-11-06_23:12:03		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-11-06_23:12:03		Entered the get_best_model method of the Model_Finder class
+2022-11-06_23:12:05		AUC for Logistic:0.9207279048920463
+2022-11-06_23:12:05		AUC for Descision Tree:0.9468277866764842
+2022-11-06_23:12:05		AUC for naive Bayes:0.7887366458001505
+2022-11-06_23:12:05		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_23:14:03		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_23:14:03		AUC for XGBoost:0.969159400684816
+2022-11-06_23:14:03		Entered the save_model method of the File_Operation class
+2022-11-06_23:14:03		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-11-06_23:14:03		Entered the get_best_model method of the Model_Finder class
+2022-11-06_23:14:03		AUC for Logistic:0.9353785006167482
+2022-11-06_23:14:03		AUC for Descision Tree:0.9431678011786742
+2022-11-06_23:14:03		AUC for naive Bayes:0.8458358079400612
+2022-11-06_23:14:03		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_23:14:13		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_23:14:13		AUC for XGBoost:0.9667412855772306
+2022-11-06_23:14:13		Entered the save_model method of the File_Operation class
+2022-11-06_23:14:13		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-11-06_23:14:13		Entered the get_best_model method of the Model_Finder class
+2022-11-06_23:14:13		AUC for Logistic:0.8947468414553055
+2022-11-06_23:14:13		AUC for Descision Tree:0.8961717488363256
+2022-11-06_23:14:13		AUC for naive Bayes:0.881970171938824
+2022-11-06_23:14:13		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_23:14:22		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-06_23:14:22		AUC for XGBoost:0.9448560843545168
+2022-11-06_23:14:22		Entered the save_model method of the File_Operation class
+2022-11-06_23:14:22		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-11-06_23:14:22		Successful End of Training
+2022-11-08_09:25:12		Start of Training
+2022-11-08_09:25:12		Entered the get_data method of the Data_Getter class
+2022-11-08_09:25:13		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_09:25:13		the data is loaded successfully
+2022-11-08_09:25:13		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_09:25:13		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_09:25:13		Entered the is_null_present method of the Preprocessor class
+2022-11-08_09:25:13		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_09:25:13		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_09:25:13		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_09:25:13		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-08_09:25:13		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-08_09:25:13		Entered the remove_columns method of the Preprocessor class
+2022-11-08_09:25:13		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-11-08_09:25:13		The column names folr training data are Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_slash_directory',
+       'qty_questionmark_directory', 'qty_equal_directory', 'qty_at_directory',
+       'qty_and_directory', 'qty_exclamation_directory', 'qty_space_directory',
+       'qty_tilde_directory', 'qty_comma_directory', 'qty_plus_directory',
+       'qty_asterisk_directory', 'qty_hashtag_directory',
+       'qty_dollar_directory', 'qty_percent_directory', 'directory_length',
+       'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file',
+       'qty_slash_file', 'qty_questionmark_file', 'qty_equal_file',
+       'qty_at_file', 'qty_and_file', 'qty_exclamation_file', 'qty_space_file',
+       'qty_tilde_file', 'qty_comma_file', 'qty_plus_file',
+       'qty_asterisk_file', 'qty_hashtag_file', 'qty_dollar_file',
+       'qty_percent_file', 'file_length', 'qty_dot_params',
+       'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params',
+       'qty_questionmark_params', 'qty_equal_params', 'qty_at_params',
+       'qty_and_params', 'qty_exclamation_params', 'qty_space_params',
+       'qty_tilde_params', 'qty_comma_params', 'qty_plus_params',
+       'qty_asterisk_params', 'qty_hashtag_params', 'qty_dollar_params',
+       'qty_percent_params', 'params_length', 'tld_present_params',
+       'qty_params', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip',
+       'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved',
+       'qty_nameservers', 'qty_mx_servers', 'ttl_hostname',
+       'tls_ssl_certificate', 'qty_redirects', 'url_google_index',
+       'domain_google_index', 'url_shortened'],
+      dtype='object')
+2022-11-08_09:25:13		Entered the elbow_plot method of the KMeansClustering class
+2022-11-08_09:25:33		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-11-08_09:25:33		Entered the create_clusters method of the KMeansClustering class
+2022-11-08_09:25:34		Entered the save_model method of the File_Operation class
+2022-11-08_09:25:34		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:25:34		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-11-08_09:25:34		Entered the get_best_model method of the Model_Finder class
+2022-11-08_09:25:36		AUC for Logistic:0.9267779763701622
+2022-11-08_09:25:36		AUC for Descision Tree:0.9523784781837112
+2022-11-08_09:25:36		AUC for naive Bayes:0.9120786410574574
+2022-11-08_09:25:36		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:26:49		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:26:49		AUC for XGBoost:0.9755399531632418
+2022-11-08_09:26:49		Entered the save_model method of the File_Operation class
+2022-11-08_09:26:49		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:26:50		Entered the get_best_model method of the Model_Finder class
+2022-11-08_09:26:52		AUC for Logistic:0.9196611299589404
+2022-11-08_09:26:53		AUC for Descision Tree:0.9465088194603846
+2022-11-08_09:26:53		AUC for naive Bayes:0.8948466269850686
+2022-11-08_09:26:53		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:29:28		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:29:28		AUC for XGBoost:0.9688602775980136
+2022-11-08_09:29:28		Entered the save_model method of the File_Operation class
+2022-11-08_09:29:28		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:29:28		Entered the get_best_model method of the Model_Finder class
+2022-11-08_09:29:28		AUC for Logistic:0.9332313033943992
+2022-11-08_09:29:28		AUC for Descision Tree:0.9384622413084198
+2022-11-08_09:29:28		AUC for naive Bayes:0.8962492576179816
+2022-11-08_09:29:28		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:29:37		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:29:37		AUC for XGBoost:0.9590661976335147
+2022-11-08_09:29:37		Entered the save_model method of the File_Operation class
+2022-11-08_09:29:37		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:29:37		Entered the get_best_model method of the Model_Finder class
+2022-11-08_09:29:37		AUC for Logistic:0.8906146100503467
+2022-11-08_09:29:37		AUC for Descision Tree:0.890424622399544
+2022-11-08_09:29:37		AUC for naive Bayes:0.8643963142395744
+2022-11-08_09:29:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:29:42		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:29:42		AUC for XGBoost:0.9448560843545168
+2022-11-08_09:29:42		Entered the save_model method of the File_Operation class
+2022-11-08_09:29:42		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:29:42		Successful End of Training
+2022-11-08_09:53:57		Start of Training
+2022-11-08_09:53:57		Entered the get_data method of the Data_Getter class
+2022-11-08_09:53:57		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_09:53:57		the data is loaded successfully
+2022-11-08_09:53:57		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_09:53:57		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_09:53:57		Entered the is_null_present method of the Preprocessor class
+2022-11-08_09:53:57		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_09:53:57		Entered the drop_Features_with_Coorelation method of the Preprocessor class
+2022-11-08_09:54:00		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_09:54:00		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_09:54:00		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-08_09:54:00		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-08_09:54:00		Entered the remove_columns method of the Preprocessor class
+2022-11-08_09:54:00		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-11-08_09:54:00		The column names folr training data are Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-08_09:54:00		Entered the elbow_plot method of the KMeansClustering class
+2022-11-08_09:54:15		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-11-08_09:54:15		Entered the create_clusters method of the KMeansClustering class
+2022-11-08_09:54:15		Entered the save_model method of the File_Operation class
+2022-11-08_09:54:15		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:54:15		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-11-08_09:54:15		Entered the get_best_model method of the Model_Finder class
+2022-11-08_09:54:16		AUC for Logistic:0.910091206339714
+2022-11-08_09:54:16		AUC for Descision Tree:0.9509121993757483
+2022-11-08_09:54:16		AUC for naive Bayes:0.8095290373730766
+2022-11-08_09:54:16		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:55:16		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:55:16		AUC for XGBoost:0.9742703662199745
+2022-11-08_09:55:16		Entered the save_model method of the File_Operation class
+2022-11-08_09:55:16		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:55:16		Entered the get_best_model method of the Model_Finder class
+2022-11-08_09:55:18		AUC for Logistic:0.9207279048920463
+2022-11-08_09:55:18		AUC for Descision Tree:0.9458150679508446
+2022-11-08_09:55:19		AUC for naive Bayes:0.7887366458001505
+2022-11-08_09:55:19		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:57:28		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:57:28		AUC for XGBoost:0.969159400684816
+2022-11-08_09:57:28		Entered the save_model method of the File_Operation class
+2022-11-08_09:57:28		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:57:28		Entered the get_best_model method of the Model_Finder class
+2022-11-08_09:57:28		AUC for Logistic:0.9353785006167482
+2022-11-08_09:57:28		AUC for Descision Tree:0.9407464936726209
+2022-11-08_09:57:28		AUC for naive Bayes:0.8458358079400612
+2022-11-08_09:57:28		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:57:36		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:57:36		AUC for XGBoost:0.9667412855772306
+2022-11-08_09:57:36		Entered the save_model method of the File_Operation class
+2022-11-08_09:57:36		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:57:36		Entered the get_best_model method of the Model_Finder class
+2022-11-08_09:57:36		AUC for Logistic:0.8947468414553055
+2022-11-08_09:57:36		AUC for Descision Tree:0.8945568538045028
+2022-11-08_09:57:36		AUC for naive Bayes:0.881970171938824
+2022-11-08_09:57:36		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:57:40		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_09:57:40		AUC for XGBoost:0.9448560843545168
+2022-11-08_09:57:40		Entered the save_model method of the File_Operation class
+2022-11-08_09:57:40		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_09:57:40		Successful End of Training
+2022-11-08_16:15:14		Start of Training
+2022-11-08_16:15:14		Entered the get_data method of the Data_Getter class
+2022-11-08_16:15:15		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_16:15:15		the data is loaded successfully
+2022-11-08_16:15:15		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_16:15:15		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_16:15:15		Entered the is_null_present method of the Preprocessor class
+2022-11-08_16:15:15		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_16:15:15		Entered the drop_Features_with_Coorelation method of the Preprocessor class
+2022-11-08_16:15:18		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_16:15:18		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_16:15:18		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-08_16:15:19		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-08_16:15:19		Entered the remove_columns method of the Preprocessor class
+2022-11-08_16:15:19		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-11-08_16:15:19		The column names folr training data are Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-08_16:15:19		Entered the elbow_plot method of the KMeansClustering class
+2022-11-08_16:15:44		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-11-08_16:15:44		Entered the create_clusters method of the KMeansClustering class
+2022-11-08_16:15:45		Entered the save_model method of the File_Operation class
+2022-11-08_16:15:45		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-11-08_16:15:45		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-11-08_16:15:45		Entered the get_best_model method of the Model_Finder class
+2022-11-08_16:15:47		AUC for Logistic:0.910091206339714
+2022-11-08_16:15:47		AUC for Descision Tree:0.9505188156463571
+2022-11-08_16:15:47		AUC for naive Bayes:0.8095290373730766
+2022-11-08_16:15:47		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_16:17:01		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_16:17:01		AUC for XGBoost:0.9742703662199745
+2022-11-08_16:17:01		Entered the save_model method of the File_Operation class
+2022-11-08_16:17:01		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_16:17:01		Entered the get_best_model method of the Model_Finder class
+2022-11-08_16:17:06		AUC for Logistic:0.9207279048920463
+2022-11-08_16:17:07		AUC for Descision Tree:0.9459901433747709
+2022-11-08_16:17:07		AUC for naive Bayes:0.7887366458001505
+2022-11-08_16:17:07		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_16:19:43		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_16:19:43		AUC for XGBoost:0.969159400684816
+2022-11-08_16:19:43		Entered the save_model method of the File_Operation class
+2022-11-08_16:19:43		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_16:19:43		Entered the get_best_model method of the Model_Finder class
+2022-11-08_16:19:43		AUC for Logistic:0.9353785006167482
+2022-11-08_16:19:43		AUC for Descision Tree:0.9393987847777423
+2022-11-08_16:19:43		AUC for naive Bayes:0.8458358079400612
+2022-11-08_16:19:43		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_16:19:51		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_16:19:51		AUC for XGBoost:0.9667412855772306
+2022-11-08_16:19:51		Entered the save_model method of the File_Operation class
+2022-11-08_16:19:51		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_16:19:51		Entered the get_best_model method of the Model_Finder class
+2022-11-08_16:19:51		AUC for Logistic:0.8947468414553055
+2022-11-08_16:19:51		AUC for Descision Tree:0.9035337703049301
+2022-11-08_16:19:51		AUC for naive Bayes:0.881970171938824
+2022-11-08_16:19:51		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_16:19:57		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_16:19:57		AUC for XGBoost:0.9448560843545168
+2022-11-08_16:19:57		Entered the save_model method of the File_Operation class
+2022-11-08_16:19:57		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_16:19:57		Successful End of Training
+2022-11-08_18:23:24		Start of Training
+2022-11-08_18:23:24		Entered the get_data method of the Data_Getter class
+2022-11-08_18:23:25		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_18:23:25		the data is loaded successfully
+2022-11-08_18:23:25		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_18:23:25		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_18:23:25		Entered the is_null_present method of the Preprocessor class
+2022-11-08_18:23:25		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_18:23:25		Entered the drop_Features_with_Coorelation method of the Preprocessor class
+2022-11-08_18:23:28		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_18:23:28		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_18:23:28		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-08_18:23:28		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-11-08_18:23:28		Entered the remove_columns method of the Preprocessor class
+2022-11-08_18:23:28		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-11-08_18:23:28		The column names folr training data are Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-08_18:23:28		Entered the elbow_plot method of the KMeansClustering class
+2022-11-08_18:23:49		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-11-08_18:23:49		Entered the create_clusters method of the KMeansClustering class
+2022-11-08_18:23:50		Entered the save_model method of the File_Operation class
+2022-11-08_18:23:50		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-11-08_18:23:50		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-11-08_18:23:50		Entered the get_best_model method of the Model_Finder class
+2022-11-08_18:23:52		AUC for Logistic:0.910091206339714
+2022-11-08_18:23:52		AUC for Descision Tree:0.9507709963257626
+2022-11-08_18:23:52		AUC for naive Bayes:0.8095290373730766
+2022-11-08_18:23:52		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_18:25:00		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_18:25:00		AUC for XGBoost:0.9742703662199745
+2022-11-08_18:25:00		Entered the save_model method of the File_Operation class
+2022-11-08_18:25:00		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_18:25:00		Entered the get_best_model method of the Model_Finder class
+2022-11-08_18:25:03		AUC for Logistic:0.9207279048920463
+2022-11-08_18:25:04		AUC for Descision Tree:0.9460374558252699
+2022-11-08_18:25:04		AUC for naive Bayes:0.7887366458001505
+2022-11-08_18:25:04		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_18:27:27		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_18:27:27		AUC for XGBoost:0.969159400684816
+2022-11-08_18:27:27		Entered the save_model method of the File_Operation class
+2022-11-08_18:27:27		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_18:27:27		Entered the get_best_model method of the Model_Finder class
+2022-11-08_18:27:27		AUC for Logistic:0.9353785006167482
+2022-11-08_18:27:27		AUC for Descision Tree:0.9367033669879847
+2022-11-08_18:27:27		AUC for naive Bayes:0.8458358079400612
+2022-11-08_18:27:27		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_18:27:36		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_18:27:36		AUC for XGBoost:0.9667412855772306
+2022-11-08_18:27:36		Entered the save_model method of the File_Operation class
+2022-11-08_18:27:36		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_18:27:36		Entered the get_best_model method of the Model_Finder class
+2022-11-08_18:27:37		AUC for Logistic:0.8947468414553055
+2022-11-08_18:27:37		AUC for Descision Tree:0.890424622399544
+2022-11-08_18:27:37		AUC for naive Bayes:0.881970171938824
+2022-11-08_18:27:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_18:27:42		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-11-08_18:27:42		AUC for XGBoost:0.9448560843545168
+2022-11-08_18:27:42		Entered the save_model method of the File_Operation class
+2022-11-08_18:27:42		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-11-08_18:27:42		Successful End of Training

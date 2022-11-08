@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="colorlib.com">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <link href="../static/css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <title>Result Page</title>
+</head>
+
+<body>
+  <div class="s01">
+    <form action="/" method="POST">
+      <fieldset>
+        <legend>{{prediction}}</legend>
+      </fieldset>
+      <div class="inner-form">
+        <div class="input-field first-wrap">
+          <button onclick="location.href = '/'" class="btn btn-primary backBtn btn-lg pull-left" type="button" >Go to Home Screen</button>
+        </div>
+      </div>
+    </form>
+</div>
+</body>
+
+</html>

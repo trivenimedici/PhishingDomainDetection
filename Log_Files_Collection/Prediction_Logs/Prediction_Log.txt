@@ -1,0 +1,442 @@
+2022-11-08_14:22:06		Start of Prediction
+2022-11-08_14:22:07		Entered the get_data method of the Data_Getter class
+2022-11-08_14:22:07		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:22:09		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:22:09		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:22:11		Entered the load_model method of the File_Operation class
+2022-11-08_14:22:11		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:22:15		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:22:23		End of Prediction
+2022-11-08_14:22:24		0
+2022-11-08_14:30:11		Start of Prediction
+2022-11-08_14:30:12		Entered the get_data method of the Data_Getter class
+2022-11-08_14:30:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:30:13		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:30:13		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:30:15		Entered the load_model method of the File_Operation class
+2022-11-08_14:30:15		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:30:18		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:30:21		End of Prediction
+2022-11-08_14:30:22		0
+2022-11-08_14:32:04		Start of Prediction
+2022-11-08_14:32:04		Entered the get_data method of the Data_Getter class
+2022-11-08_14:32:04		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:32:04		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:32:04		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:32:04		Entered the load_model method of the File_Operation class
+2022-11-08_14:32:04		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:32:05		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:32:05		End of Prediction
+2022-11-08_14:32:05		1
+2022-11-08_14:32:28		Start of Prediction
+2022-11-08_14:32:28		Entered the get_data method of the Data_Getter class
+2022-11-08_14:32:29		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:32:29		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:32:29		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:32:29		Entered the load_model method of the File_Operation class
+2022-11-08_14:32:29		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:32:29		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:32:29		End of Prediction
+2022-11-08_14:32:29		1
+2022-11-08_14:32:44		Start of Prediction
+2022-11-08_14:32:44		Entered the get_data method of the Data_Getter class
+2022-11-08_14:32:44		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:32:44		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:32:44		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:32:44		Entered the load_model method of the File_Operation class
+2022-11-08_14:32:44		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:32:44		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:32:44		End of Prediction
+2022-11-08_14:32:44		1
+2022-11-08_14:33:39		Start of Prediction
+2022-11-08_14:33:39		Entered the get_data method of the Data_Getter class
+2022-11-08_14:33:39		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:33:39		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:33:39		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:33:39		Entered the load_model method of the File_Operation class
+2022-11-08_14:33:39		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:33:39		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:33:39		End of Prediction
+2022-11-08_14:33:39		1
+2022-11-08_14:35:23		Start of Prediction
+2022-11-08_14:35:23		Entered the get_data method of the Data_Getter class
+2022-11-08_14:35:23		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:35:23		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:35:23		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:35:23		Entered the load_model method of the File_Operation class
+2022-11-08_14:35:23		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:35:23		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:35:23		End of Prediction
+2022-11-08_14:35:23		1
+2022-11-08_14:35:47		Start of Prediction
+2022-11-08_14:35:47		Entered the get_data method of the Data_Getter class
+2022-11-08_14:35:47		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:35:47		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:35:47		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:35:47		Entered the load_model method of the File_Operation class
+2022-11-08_14:35:47		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:35:47		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:35:47		End of Prediction
+2022-11-08_14:35:47		1
+2022-11-08_14:36:55		Start of Prediction
+2022-11-08_14:36:55		Entered the get_data method of the Data_Getter class
+2022-11-08_14:36:55		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:36:55		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:36:55		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:36:55		Entered the load_model method of the File_Operation class
+2022-11-08_14:36:55		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:36:55		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:36:55		End of Prediction
+2022-11-08_14:36:55		1
+2022-11-08_14:37:29		Start of Prediction
+2022-11-08_14:37:29		Entered the get_data method of the Data_Getter class
+2022-11-08_14:37:29		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:37:29		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:37:29		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:37:29		Entered the load_model method of the File_Operation class
+2022-11-08_14:37:29		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:37:29		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:37:29		End of Prediction
+2022-11-08_14:37:29		0
+2022-11-08_14:38:52		Start of Prediction
+2022-11-08_14:38:52		Entered the get_data method of the Data_Getter class
+2022-11-08_14:38:52		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:38:52		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:38:52		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:38:52		Entered the load_model method of the File_Operation class
+2022-11-08_14:38:52		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:38:52		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:38:52		End of Prediction
+2022-11-08_14:38:52		1
+2022-11-08_14:39:21		Start of Prediction
+2022-11-08_14:39:21		Entered the get_data method of the Data_Getter class
+2022-11-08_14:39:21		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:39:21		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:39:21		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:39:21		Entered the load_model method of the File_Operation class
+2022-11-08_14:39:21		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:39:21		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:39:21		End of Prediction
+2022-11-08_14:39:21		1
+2022-11-08_14:39:27		Start of Prediction
+2022-11-08_14:39:27		Entered the get_data method of the Data_Getter class
+2022-11-08_14:39:27		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:39:27		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:39:27		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:39:27		Entered the load_model method of the File_Operation class
+2022-11-08_14:39:27		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:39:27		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:39:27		End of Prediction
+2022-11-08_14:39:27		1
+2022-11-08_14:41:25		Start of Prediction
+2022-11-08_14:41:25		Entered the get_data method of the Data_Getter class
+2022-11-08_14:41:25		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:41:25		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:41:25		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:41:25		Entered the load_model method of the File_Operation class
+2022-11-08_14:41:25		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:41:25		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:41:25		End of Prediction
+2022-11-08_14:41:25		1
+2022-11-08_14:44:19		Start of Prediction
+2022-11-08_14:44:24		Entered the get_data method of the Data_Getter class
+2022-11-08_14:44:24		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:44:35		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:44:35		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:44:40		Entered the load_model method of the File_Operation class
+2022-11-08_14:44:40		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:44:43		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:45:46		End of Prediction
+2022-11-08_14:45:46		1
+2022-11-08_14:46:16		Start of Prediction
+2022-11-08_14:46:16		Entered the get_data method of the Data_Getter class
+2022-11-08_14:46:16		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:46:16		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:46:16		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:46:16		Entered the load_model method of the File_Operation class
+2022-11-08_14:46:16		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:46:17		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:46:17		End of Prediction
+2022-11-08_14:46:17		1
+2022-11-08_14:46:34		Start of Prediction
+2022-11-08_14:46:34		Entered the get_data method of the Data_Getter class
+2022-11-08_14:46:34		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:46:34		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:46:34		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:46:34		Entered the load_model method of the File_Operation class
+2022-11-08_14:46:34		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:46:34		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:46:34		End of Prediction
+2022-11-08_14:46:34		0
+2022-11-08_14:49:08		Start of Prediction
+2022-11-08_14:49:08		Entered the get_data method of the Data_Getter class
+2022-11-08_14:49:08		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:49:08		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:49:08		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:49:08		Entered the is_null_present method of the Preprocessor class
+2022-11-08_14:49:08		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_14:49:08		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:49:08		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:49:08		Entered the load_model method of the File_Operation class
+2022-11-08_14:49:08		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:49:09		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:49:09		End of Prediction
+2022-11-08_14:49:09		0
+2022-11-08_14:49:24		Start of Prediction
+2022-11-08_14:49:24		Entered the get_data method of the Data_Getter class
+2022-11-08_14:49:24		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:49:24		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:49:24		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:49:24		Entered the is_null_present method of the Preprocessor class
+2022-11-08_14:49:24		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_14:49:24		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:49:24		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:49:24		Entered the load_model method of the File_Operation class
+2022-11-08_14:49:24		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:49:24		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:49:24		End of Prediction
+2022-11-08_14:49:24		1
+2022-11-08_14:49:44		Start of Prediction
+2022-11-08_14:49:44		Entered the get_data method of the Data_Getter class
+2022-11-08_14:49:44		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:49:44		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:49:44		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:49:44		Entered the is_null_present method of the Preprocessor class
+2022-11-08_14:49:44		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_14:49:44		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:49:44		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:49:44		Entered the load_model method of the File_Operation class
+2022-11-08_14:49:44		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:49:44		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:49:44		End of Prediction
+2022-11-08_14:49:44		1
+2022-11-08_14:52:55		Start of Prediction
+2022-11-08_14:52:55		Entered the get_data method of the Data_Getter class
+2022-11-08_14:52:55		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:52:55		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:52:55		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:52:55		Entered the is_null_present method of the Preprocessor class
+2022-11-08_14:52:55		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_14:52:55		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:52:55		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:52:55		Entered the load_model method of the File_Operation class
+2022-11-08_14:52:55		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:52:55		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:52:55		End of Prediction
+2022-11-08_14:52:55		0
+2022-11-08_14:53:15		Start of Prediction
+2022-11-08_14:53:15		Entered the get_data method of the Data_Getter class
+2022-11-08_14:53:15		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:53:15		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:53:15		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:53:15		Entered the is_null_present method of the Preprocessor class
+2022-11-08_14:53:15		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_14:53:15		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:53:15		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:53:15		Entered the load_model method of the File_Operation class
+2022-11-08_14:53:15		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:53:15		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:53:15		End of Prediction
+2022-11-08_14:53:15		0
+2022-11-08_14:53:22		Start of Prediction
+2022-11-08_14:53:22		Entered the get_data method of the Data_Getter class
+2022-11-08_14:53:22		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_14:53:22		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:53:22		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_14:53:22		Entered the is_null_present method of the Preprocessor class
+2022-11-08_14:53:22		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_14:53:22		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_14:53:22		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_14:53:22		Entered the load_model method of the File_Operation class
+2022-11-08_14:53:22		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_14:53:22		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_14:53:22		End of Prediction
+2022-11-08_14:53:22		1
+2022-11-08_16:14:04		Start of Prediction
+2022-11-08_16:14:04		Entered the get_data method of the Data_Getter class
+2022-11-08_16:14:04		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_16:14:04		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_16:14:04		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_16:14:04		Entered the is_null_present method of the Preprocessor class
+2022-11-08_16:14:04		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_16:14:04		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_16:14:04		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_16:14:04		Entered the load_model method of the File_Operation class
+2022-11-08_16:14:04		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_16:14:04		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_16:14:04		End of Prediction
+2022-11-08_16:14:04		0
+2022-11-08_16:14:49		Start of Prediction
+2022-11-08_16:14:49		Entered the get_data method of the Data_Getter class
+2022-11-08_16:14:49		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_16:14:49		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_16:14:49		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_16:14:49		Entered the is_null_present method of the Preprocessor class
+2022-11-08_16:14:49		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_16:14:49		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_16:14:49		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_16:14:49		Entered the load_model method of the File_Operation class
+2022-11-08_16:14:49		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_16:14:49		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_16:14:49		End of Prediction
+2022-11-08_16:14:49		1
+2022-11-08_16:20:11		Start of Prediction
+2022-11-08_16:20:11		Entered the get_data method of the Data_Getter class
+2022-11-08_16:20:11		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_16:20:11		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_16:20:11		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_16:20:11		Entered the is_null_present method of the Preprocessor class
+2022-11-08_16:20:11		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_16:20:11		Entered the remove_outliers method of the Preprocessor class
+2022-11-08_16:20:12		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_16:20:12		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_16:20:12		Entered the load_model method of the File_Operation class
+2022-11-08_16:20:12		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_16:20:12		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_16:20:13		The column values for the prediction data is Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-08_16:20:13		Entered the find_correct_model_file method of the File_Operation class
+2022-11-08_16:20:13		Exited the find_correct_model_file method of the Model_Finder class.
+2022-11-08_16:20:13		Entered the load_model method of the File_Operation class
+2022-11-08_16:20:13		Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_16:20:13		The column values for the prediction data is Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-08_16:20:13		Entered the find_correct_model_file method of the File_Operation class
+2022-11-08_16:20:13		Exited the find_correct_model_file method of the Model_Finder class.
+2022-11-08_16:20:13		Entered the load_model method of the File_Operation class
+2022-11-08_16:20:13		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_16:20:13		End of Prediction
+2022-11-08_18:29:03		Start of Prediction
+2022-11-08_18:29:03		Entered the get_data method of the Data_Getter class
+2022-11-08_18:29:03		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_18:29:03		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_18:29:03		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_18:29:03		Entered the is_null_present method of the Preprocessor class
+2022-11-08_18:29:03		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_18:29:03		Entered the remove_outliers method of the Preprocessor class
+2022-11-08_18:29:04		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_18:29:04		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_18:29:04		Entered the load_model method of the File_Operation class
+2022-11-08_18:29:04		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_18:29:04		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_18:29:04		The column values for the prediction data is Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-08_18:29:04		Entered the find_correct_model_file method of the File_Operation class
+2022-11-08_18:29:04		Exited the find_correct_model_file method of the Model_Finder class.
+2022-11-08_18:29:04		Entered the load_model method of the File_Operation class
+2022-11-08_18:29:04		Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_18:29:04		The column values for the prediction data is Index(['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url',
+       'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url',
+       'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url',
+       'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url',
+       'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url',
+       'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain',
+       'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip',
+       'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory',
+       'qty_underline_directory', 'qty_questionmark_directory',
+       'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory',
+       'directory_length', 'qty_dot_file', 'qty_hyphen_file',
+       'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file',
+       'file_length', 'qty_dot_params', 'qty_hyphen_params',
+       'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params',
+       'qty_at_params', 'qty_and_params', 'qty_exclamation_params',
+       'qty_percent_params', 'params_length', 'email_in_url', 'time_response',
+       'domain_spf', 'asn_ip', 'time_domain_activation',
+       'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers',
+       'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate',
+       'qty_redirects', 'url_google_index', 'domain_google_index',
+       'url_shortened'],
+      dtype='object')
+2022-11-08_18:29:04		Entered the find_correct_model_file method of the File_Operation class
+2022-11-08_18:29:04		Exited the find_correct_model_file method of the Model_Finder class.
+2022-11-08_18:29:04		Entered the load_model method of the File_Operation class
+2022-11-08_18:29:04		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_18:29:04		End of Prediction
+2022-11-08_18:29:35		Start of Prediction
+2022-11-08_18:29:35		Entered the get_data method of the Data_Getter class
+2022-11-08_18:29:35		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_18:29:35		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_18:29:35		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_18:29:35		Entered the is_null_present method of the Preprocessor class
+2022-11-08_18:29:35		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_18:29:35		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_18:29:35		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_18:29:35		Entered the load_model method of the File_Operation class
+2022-11-08_18:29:35		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_18:29:35		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_18:29:35		End of Prediction
+2022-11-08_18:29:35		0
+2022-11-08_18:30:06		Start of Prediction
+2022-11-08_18:30:06		Entered the get_data method of the Data_Getter class
+2022-11-08_18:30:06		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-11-08_18:30:06		Entered the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_18:30:06		Finding zero or na values is a success.Data written to the null values file. Exited the getColumns_with_NAZero method of the Preprocessor class
+2022-11-08_18:30:06		Entered the is_null_present method of the Preprocessor class
+2022-11-08_18:30:06		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-08_18:30:06		Entered the separate_label_feature method of the Preprocessor class
+2022-11-08_18:30:06		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-08_18:30:06		Entered the load_model method of the File_Operation class
+2022-11-08_18:30:06		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-11-08_18:30:06		The column values for the prediction data for xgboost  is ['qty_dot_url', 'qty_hyphen_url', 'qty_underline_url', 'qty_slash_url', 'qty_questionmark_url', 'qty_equal_url', 'qty_at_url', 'qty_and_url', 'qty_exclamation_url', 'qty_space_url', 'qty_tilde_url', 'qty_comma_url', 'qty_plus_url', 'qty_asterisk_url', 'qty_hashtag_url', 'qty_dollar_url', 'qty_percent_url', 'qty_tld_url', 'length_url', 'qty_dot_domain', 'qty_hyphen_domain', 'qty_underline_domain', 'qty_at_domain', 'qty_vowels_domain', 'domain_length', 'domain_in_ip', 'server_client_domain', 'qty_dot_directory', 'qty_hyphen_directory', 'qty_underline_directory', 'qty_questionmark_directory', 'qty_at_directory', 'qty_asterisk_directory', 'qty_percent_directory', 'directory_length', 'qty_dot_file', 'qty_hyphen_file', 'qty_underline_file', 'qty_asterisk_file', 'qty_percent_file', 'file_length', 'qty_dot_params', 'qty_hyphen_params', 'qty_underline_params', 'qty_slash_params', 'qty_questionmark_params', 'qty_at_params', 'qty_and_params', 'qty_exclamation_params', 'qty_percent_params', 'params_length', 'email_in_url', 'time_response', 'domain_spf', 'asn_ip', 'time_domain_activation', 'time_domain_expiration', 'qty_ip_resolved', 'qty_nameservers', 'qty_mx_servers', 'ttl_hostname', 'tls_ssl_certificate', 'qty_redirects', 'url_google_index', 'domain_google_index', 'url_shortened']
+2022-11-08_18:30:06		End of Prediction
+2022-11-08_18:30:06		1

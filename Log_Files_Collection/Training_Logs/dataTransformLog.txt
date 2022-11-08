@@ -1,0 +1,30 @@
+2022-11-06_20:15:34		the data transofrmations started for file dataset_full.csv
+2022-11-06_20:15:38		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-06_20:15:44		 dataset_full.csv: File Transformed successfully!!
+2022-11-06_23:04:01		the data transofrmations started for file dataset_full.csv
+2022-11-06_23:04:01		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-06_23:04:02		 dataset_full.csv: File Transformed successfully!!
+2022-11-06_23:10:44		the data transofrmations started for file dataset_full.csv
+2022-11-06_23:10:44		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-06_23:10:46		 dataset_full.csv: File Transformed successfully!!
+2022-11-06_23:17:14		the data transofrmations started for file dataset_full.csv
+2022-11-06_23:17:14		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-06_23:17:22		 dataset_full.csv: File Transformed successfully!!
+2022-11-06_23:29:33		the data transofrmations started for file dataset_full.csv
+2022-11-06_23:29:33		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-06_23:29:41		 dataset_full.csv: File Transformed successfully!!
+2022-11-08_09:24:41		the data transofrmations started for file dataset_full.csv
+2022-11-08_09:24:41		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-08_09:24:43		 dataset_full.csv: File Transformed successfully!!
+2022-11-08_09:25:11		the data transofrmations started for file dataset_full.csv
+2022-11-08_09:25:11		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-08_09:25:12		 dataset_full.csv: File Transformed successfully!!
+2022-11-08_09:53:55		the data transofrmations started for file dataset_full.csv
+2022-11-08_09:53:55		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-08_09:53:57		 dataset_full.csv: File Transformed successfully!!
+2022-11-08_16:15:12		the data transofrmations started for file dataset_full.csv
+2022-11-08_16:15:12		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-08_16:15:14		 dataset_full.csv: File Transformed successfully!!
+2022-11-08_18:23:22		the data transofrmations started for file dataset_full.csv
+2022-11-08_18:23:22		the file path is  Training_Raw_files_validated/Good_Raw/dataset_full.csv
+2022-11-08_18:23:24		 dataset_full.csv: File Transformed successfully!!
